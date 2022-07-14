@@ -1,0 +1,32 @@
+
+enum WordType { noun, verb, adjective, satellite, adverb }
+
+enum RelationType {
+  antonym,
+  memberHolonym,
+  partHolonym,
+  substanceHolonym,
+  verbGroup,
+  memberMeronym,
+  partMeronym,
+  substanceMeronym,
+  similarTo,
+  entailment,
+  derivationallyRelatedForm,
+  memberOfThisDomainTopic,
+  memberOfThisDomainRegion,
+  memberOfThisDomainUsage,
+  domainOfSynsetTopic,
+  domainOfSynsetRegion,
+  domainOfSynsetUsage,
+  participleOfVerb,
+  attribute,
+  cause,
+  hypernym,
+  instanceHypernym,
+  derivedFromAdjective,
+  pertainym,
+  alsoSee,
+  hyponym,
+  instanceHyponym,
+}
